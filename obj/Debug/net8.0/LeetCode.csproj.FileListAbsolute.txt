@@ -1,0 +1,14 @@
+/Users/mohamedsalam/Source/LeetCode/bin/Debug/net8.0/LeetCode
+/Users/mohamedsalam/Source/LeetCode/bin/Debug/net8.0/LeetCode.deps.json
+/Users/mohamedsalam/Source/LeetCode/bin/Debug/net8.0/LeetCode.runtimeconfig.json
+/Users/mohamedsalam/Source/LeetCode/bin/Debug/net8.0/LeetCode.dll
+/Users/mohamedsalam/Source/LeetCode/bin/Debug/net8.0/LeetCode.pdb
+/Users/mohamedsalam/Source/LeetCode/obj/Debug/net8.0/LeetCode.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamedsalam/Source/LeetCode/obj/Debug/net8.0/LeetCode.AssemblyInfoInputs.cache
+/Users/mohamedsalam/Source/LeetCode/obj/Debug/net8.0/LeetCode.AssemblyInfo.cs
+/Users/mohamedsalam/Source/LeetCode/obj/Debug/net8.0/LeetCode.csproj.CoreCompileInputs.cache
+/Users/mohamedsalam/Source/LeetCode/obj/Debug/net8.0/LeetCode.dll
+/Users/mohamedsalam/Source/LeetCode/obj/Debug/net8.0/refint/LeetCode.dll
+/Users/mohamedsalam/Source/LeetCode/obj/Debug/net8.0/LeetCode.pdb
+/Users/mohamedsalam/Source/LeetCode/obj/Debug/net8.0/LeetCode.genruntimeconfig.cache
+/Users/mohamedsalam/Source/LeetCode/obj/Debug/net8.0/ref/LeetCode.dll
