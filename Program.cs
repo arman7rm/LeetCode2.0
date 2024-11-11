@@ -5,13 +5,9 @@ public class Program
     public static void Main()
     {
         Solution solution = new Solution();
-        int[] candidates = new int[] {3,5,8};
-        var res = (solution.CombinationSum(candidates, 11));
-        foreach(var row in res){
-            foreach(var num in row){
-                Console.Write(num + " ");
-            }
-            Console.WriteLine();
-        }
+        var arr = new List<int[]>();
+        arr.Add(new int[] { 1,4});
+        arr.Add(new int[] { 4,6});
+        solution.Merge(arr.ToArray());
     }
 }
