@@ -37,8 +37,7 @@ public partial class Solution {
         foreach(var account in accounts){
             string name = account[0];
             if(!map.ContainsKey(name)){
-                map[name] = new List<HashSet<string>>();
-                map[name].Add(new HashSet<string>());
+                map[name] = [[]];
                 for(int i=1; i<account.Count; i++){
                     map[name][0].Add(account[i]);
                 }
@@ -74,8 +73,10 @@ public partial class Solution {
             foreach(var emailSet in name.Value){
                 var emails = emailSet.ToList();
                 emails.Sort(StringComparer.Ordinal);
-                var account = new List<string>();
-                account.Add(name.Key);
+                var account = new List<string>
+                {
+                    name.Key
+                };
                 account.AddRange(emails);
                 res.Add(account);
             }
