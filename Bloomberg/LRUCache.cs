@@ -9,6 +9,7 @@ public class LRUCache
     public LRUCache(int capacity)
     {
         this.cap = capacity;
+        this.size = 0;
         this.map = new Dictionary<int, Node>();
     }
 
