@@ -1,5 +1,5 @@
 public partial class Solution {
-    public class Node{
+    private class Node{
         public Node next;
         public Node prev;
         public Node child;
@@ -7,7 +7,7 @@ public partial class Solution {
 
         }
     }
-    public Node Flatten(Node head) {
+    private Node Flatten(Node head) {
         var runner = head;
         var stack = new Stack<Node>();
         while(runner!=null){
