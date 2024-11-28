@@ -4,13 +4,8 @@ public class Program
 {
     public static void Main()
     {
-        Solution solution = new Solution();
-        var cache  = new LRUCache(2);
-        cache.Put(2,1);
-        cache.Put(2,2);
-        cache.Get(2);
-        cache.Put(1,1);
-        cache.Put(4,1);
-        cache.Get(2);
+        int m = 1+(4-0)/2;
+        int n = (10)/2 -m;
+        Console.WriteLine(10%2==0);
     }
 }
