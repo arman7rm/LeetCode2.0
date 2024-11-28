@@ -6,6 +6,6 @@ public class Program
     {
         int m = 1+(4-0)/2;
         int n = (10)/2 -m;
-        Console.WriteLine(10%2==0);
+        Console.WriteLine((4-3)/2);
     }
 }
